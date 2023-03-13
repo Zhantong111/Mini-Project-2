@@ -1,9 +1,13 @@
-import { db } from "./firebase";
 import "./App.css";
+import AddTodo from "./AddTodo";
 
 function App() {
-  console.log(db);
-  return <h1>Initial Commit</h1>;
+  return (
+    <>
+      <h1>My To Do List</h1>
+      <AddTodo />
+    </>
+  );
 }
 
 export default App;
